@@ -26,8 +26,8 @@
   --color-link-hover: #8B7B5E;
 
   --font-heading: 'Yojo', 'Caveat', cursive;
-  --font-body: 'Noto Sans JP', sans-serif;
-  --font-accent: 'Cormorant Garamond', serif;
+  --font-body: 'Yojo', 'Noto Sans JP', sans-serif;
+  --font-accent: 'Yojo', 'Cormorant Garamond', serif;
 
   --max-width: 1200px;
   --header-height: 80px;
