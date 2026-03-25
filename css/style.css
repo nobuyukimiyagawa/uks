@@ -3,6 +3,15 @@
    Design: Hand-drawn organic / Beige x Ivory
    ============================================ */
 
+/* --- Custom Font --- */
+@font-face {
+  font-family: 'Yojo';
+  src: url('../yojo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* --- Custom Properties --- */
 :root {
   --color-bg: #FAF7F2;
@@ -16,7 +25,7 @@
   --color-white: #FFFDF9;
   --color-link-hover: #8B7B5E;
 
-  --font-heading: 'Caveat', cursive;
+  --font-heading: 'Yojo', 'Caveat', cursive;
   --font-body: 'Noto Sans JP', sans-serif;
   --font-accent: 'Cormorant Garamond', serif;
 
