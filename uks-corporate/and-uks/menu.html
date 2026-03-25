@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - and &uuml;ks beauty salon</title>
+  <meta name="description" content="and &uuml;ks beauty salon の施術メニュー。黄土漢方よもぎ蒸し、美容鍼、美肌脱毛。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Noto+Serif+JP:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html">and &uuml;ks beauty salon</a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li><a href="about.html" class="header__nav-link">About</a></li>
+          <li><a href="menu.html" class="header__nav-link header__nav-link--active">Menu</a></li>
+          <li><a href="salon.html" class="header__nav-link">Salon</a></li>
+          <li><a href="contact.html" class="header__nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav">
+    <a href="index.html" class="mobile-nav__link">Home</a>
+    <a href="about.html" class="mobile-nav__link">About</a>
+    <a href="menu.html" class="mobile-nav__link">Menu</a>
+    <a href="salon.html" class="mobile-nav__link">Salon</a>
+    <a href="contact.html" class="mobile-nav__link">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- Page Hero -->
+    <section class="menu-hero">
+      <div class="container">
+        <h1 class="menu-hero__title fade-in">Menu</h1>
+        <p class="menu-hero__subtitle fade-in">施術メニュー</p>
+      </div>
+    </section>
+
+    <!-- Service 1: Korean Herbal Steam -->
+    <section class="section">
+      <div class="container">
+        <article class="service">
+          <div class="service__inner">
+            <div class="service__image fade-in-left">
+              <div class="photo-placeholder photo-placeholder--light"></div>
+            </div>
+            <div class="service__content fade-in-right">
+              <span class="service__number">01</span>
+              <h2 class="service__title-en">Korean Herbal Steam</h2>
+              <p class="service__title-ja">黄土漢方よもぎ蒸し</p>
+              <p class="service__desc">
+                韓国伝統の温熱療法「よもぎ蒸し」。黄土で作られた座器の上に座り、
+                漢方薬草のスチームで身体の内側からじっくりと温めます。
+                黄土は遠赤外線を放射し、身体の深部まで熱を届けることで、
+                通常のよもぎ蒸し以上の温熱効果が期待できます。
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">血行促進・冷え性の改善</li>
+                <li class="service__feature">デトックス・老廃物の排出</li>
+                <li class="service__feature">むくみ・肌荒れの改善</li>
+                <li class="service__feature">婦人科系のお悩みに</li>
+                <li class="service__feature">自律神経のバランスを整える</li>
+                <li class="service__feature">美容鍼とのセットが一番人気</li>
+              </ul>
+              <a href="contact.html" class="btn btn--small">Reserve</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Service 2: Beauty Acupuncture -->
+    <section class="section section--alt">
+      <div class="container">
+        <article class="service">
+          <div class="service__inner service__inner--reverse">
+            <div class="service__image fade-in-right">
+              <div class="photo-placeholder photo-placeholder--dark"></div>
+            </div>
+            <div class="service__content fade-in-left">
+              <span class="service__number">02</span>
+              <h2 class="service__title-en">Beauty Acupuncture</h2>
+              <p class="service__title-ja">美容鍼</p>
+              <p class="service__desc">
+                国家資格を持つ鍼灸師による美容鍼。お顔のツボに極細の鍼を刺すことで、
+                血流を促進し、コラーゲンの生成を活性化。
+                リフトアップ・小顔効果・むくみ解消・肌質改善など、
+                さまざまな美容効果が期待できます。
+                痛みの少ない優しい施術で、鍼が初めての方にも安心してお受けいただけます。
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">国家資格保有の鍼灸師が施術</li>
+                <li class="service__feature">小顔・リフトアップ効果</li>
+                <li class="service__feature">むくみ解消・血行促進</li>
+                <li class="service__feature">肌のハリ・ツヤの改善</li>
+                <li class="service__feature">初心者にも優しいソフトな施術</li>
+                <li class="service__feature">よもぎ蒸しとのセットメニューがおすすめ</li>
+              </ul>
+              <a href="contact.html" class="btn btn--small">Reserve</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Service 3: Beauty Hair Removal -->
+    <section class="section">
+      <div class="container">
+        <article class="service">
+          <div class="service__inner">
+            <div class="service__image fade-in-left">
+              <div class="photo-placeholder"></div>
+            </div>
+            <div class="service__content fade-in-right">
+              <span class="service__number">03</span>
+              <h2 class="service__title-en">Beauty Hair Removal</h2>
+              <p class="service__title-ja">美肌脱毛</p>
+              <p class="service__desc">
+                お子さまや敏感肌の方にも安心してお受けいただける美肌脱毛。
+                通常のサロン脱毛を超える効果をたった1回の施術から実感いただけます。
+                フォトビューティー技術を採用し、脱毛しながら美肌ケアが同時に叶う、
+                次世代の脱毛メニューです。
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">お子さま・敏感肌の方も安心</li>
+                <li class="service__feature">1回の施術で効果を実感</li>
+                <li class="service__feature">フォトビューティー技術で美肌ケア</li>
+                <li class="service__feature">都度払い・回数パックから選択可能</li>
+                <li class="service__feature">丁寧なカウンセリングで一人ひとりに最適なプランを</li>
+                <li class="service__feature">通常サロン脱毛を凌駕する仕上がり</li>
+              </ul>
+              <a href="contact.html" class="btn btn--small">Reserve</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Set Menu Banner -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="set-menu-banner fade-in">
+          <div class="set-menu-banner__inner">
+            <p class="set-menu-banner__label">Recommended</p>
+            <h2 class="set-menu-banner__title">Steam &times; Acupuncture Set</h2>
+            <p class="set-menu-banner__title-ja">よもぎ蒸し &times; 美容鍼 セットメニュー</p>
+            <p class="set-menu-banner__text">
+              一番人気のセットメニュー。よもぎ蒸しで身体を芯から温めた後に<br>
+              美容鍼を受けることで、血行が良くなった状態で鍼の効果を最大限に引き出します。<br>
+              内側と外側、両方からアプローチする贅沢なコースです。
+            </p>
+            <a href="contact.html" class="btn">Reserve Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">and &uuml;ks beauty salon</div>
+      <nav class="footer__nav">
+        <a href="about.html" class="footer__nav-link">About</a>
+        <a href="menu.html" class="footer__nav-link">Menu</a>
+        <a href="salon.html" class="footer__nav-link">Salon</a>
+        <a href="contact.html" class="footer__nav-link">Contact</a>
+      </nav>
+      <p class="footer__info">
+        nakano / omotesando / kokubunji
+      </p>
+      <p class="footer__copy">&copy; 2026 and &uuml;ks beauty salon. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
