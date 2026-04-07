@@ -16,9 +16,9 @@
   --color-white: #FFFDF9;
   --color-link-hover: #8B7B5E;
 
-  --font-heading: 'Yusei Magic', cursive;
-  --font-body: 'Yusei Magic', sans-serif;
-  --font-accent: 'Yusei Magic', serif;
+  --font-heading: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-body: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-accent: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
   --max-width: 1200px;
   --header-height: 80px;
