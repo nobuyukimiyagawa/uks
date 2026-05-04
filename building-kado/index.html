@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ビルヂング角 | まちとつながる複合施設 - 阿佐ヶ谷</title>
-  <meta name="description" content="ビルヂング角は、阿佐ヶ谷にある「まちとつながる複合施設」。1F 喫茶角、2F ネイルシェアサロン、3F レンタルスペースを備えた、地域に根ざした複合ビルです。">
+  <meta name="description" content="ビルヂング角は、阿佐ヶ谷にある「まちとつながる複合施設」。1F カフェ、2F ギャラリー、3F ネイルサロンを備えた、地域に根ざした複合ビルです。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+JP:wght@400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,10 +24,10 @@
       </a>
 
       <nav class="nav-desktop">
-        <a href="index.html" class="active">ホーム</a>
-        <a href="about.html">コンセプト</a>
-        <a href="floor.html">フロアガイド</a>
-        <a href="company.html">会社情報</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="floor.html">Floor</a>
+        <a href="company.html">Company</a>
       </nav>
 
       <button class="hamburger" aria-label="メニュー">
@@ -46,89 +46,153 @@
     <a href="company.html">会社情報<span class="nav-mobile-label">Company</span></a>
   </nav>
 
-  <!-- ===== Hero ===== -->
-  <section class="section" style="padding-top: 120px; padding-bottom: 40px; text-align: center;">
+  <!-- ===== Hero (full-screen, parallax bg, scroll guide) ===== -->
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=1920&q=80');">
+    <div class="hero-overlay"></div>
     <div class="container">
-      <p class="fade-in" style="font-family: 'Zen Maru Gothic', sans-serif; font-size: 0.85rem; color: var(--text-light); letter-spacing: 0.1em; margin-bottom: 16px;">まちとつながる複合施設</p>
-      <h1 class="fade-in" style="font-size: 2.2rem; margin-bottom: 8px;">ビルヂング角</h1>
-      <p class="fade-in" style="font-family: 'DM Serif Display', serif; font-size: 0.8rem; color: var(--text-light); letter-spacing: 0.15em;">Building Kado</p>
+      <p class="hero-tagline fade-in parallax-y">A Community Complex in Asagaya</p>
+      <h1 class="hero-brand fade-in parallax-y">ビルヂング角</h1>
+      <p class="hero-brand-en fade-in parallax-y">Building Kado</p>
+      <p class="hero-jp-line fade-in parallax-y">
+        まちの角に佇む、<br>
+        小さな複合施設
+      </p>
     </div>
+    <a href="#info" class="scroll-guide" aria-label="ページを下にスクロール">
+      <span class="scroll-guide-label">Scroll</span>
+      <span class="scroll-guide-line"></span>
+    </a>
   </section>
 
-  <!-- ===== Floor Illustration ===== -->
-  <section class="section" id="floors" style="padding-top: 20px;">
-    <div class="container">
-      <div style="max-width: 480px; margin: 0 auto;">
-
-        <!-- 3F -->
-        <a href="floor.html#floor-3f" class="fade-in" style="display: block; border: 2px dashed var(--border); border-radius: 16px; padding: 32px 24px; text-align: center; margin-bottom: -2px; transition: background 0.3s, border-color 0.3s; text-decoration: none; color: inherit;">
-          <span style="font-family: 'DM Serif Display', serif; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--green);">3F</span>
-          <h3 style="font-size: 1.2rem; margin: 4px 0 8px;">レンタルスペース</h3>
-          <p style="font-size: 0.8rem; color: var(--text-light);">ワークショップ・展示会・ポップアップ</p>
-        </a>
-
-        <!-- 2F -->
-        <a href="floor.html#floor-2f" class="fade-in" style="display: block; border: 2px dashed var(--border); border-radius: 16px; padding: 32px 24px; text-align: center; margin-bottom: -2px; transition: background 0.3s, border-color 0.3s; text-decoration: none; color: inherit;">
-          <span style="font-family: 'DM Serif Display', serif; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--pink);">2F</span>
-          <h3 style="font-size: 1.2rem; margin: 4px 0 8px;">ネイルシェアサロン</h3>
-          <p style="font-size: 0.8rem; color: var(--text-light);">フリーランスネイリストのためのシェアサロン</p>
-        </a>
-
-        <!-- 1F -->
-        <a href="floor.html#floor-1f" class="fade-in" style="display: block; border: 2px dashed var(--border); border-radius: 16px; padding: 32px 24px; text-align: center; transition: background 0.3s, border-color 0.3s; text-decoration: none; color: inherit;">
-          <span style="font-family: 'DM Serif Display', serif; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent);">1F</span>
-          <h3 style="font-size: 1.2rem; margin: 4px 0 8px;">喫茶角</h3>
-          <p style="font-size: 0.8rem; color: var(--text-light);">自家焙煎コーヒーと手作りケーキ</p>
-        </a>
-
+  <!-- ===== Information ===== -->
+  <section class="section info-block" id="info">
+    <div class="container container--narrow">
+      <div class="section-head fade-in">
+        <span class="section-label">Information</span>
+        <h2 class="section-title">お知らせ</h2>
+      </div>
+      <div class="info-list fade-in">
+        <div class="info-row">
+          <span class="info-date">2026.04.01</span>
+          <span class="info-tag">Open</span>
+          <span class="info-text">ビルヂング角がオープンしました。</span>
+        </div>
+        <div class="info-row">
+          <span class="info-date">2026.04.10</span>
+          <span class="info-tag">Gallery</span>
+          <span class="info-text">2F ギャラリーの企画展示スケジュールを公開しました。</span>
+        </div>
+        <div class="info-row">
+          <span class="info-date">2026.05.01</span>
+          <span class="info-tag">Cafe</span>
+          <span class="info-text">1F カフェの春季限定メニューがはじまりました。</span>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- ===== Floor Heading ===== -->
+  <section class="section floor-index" style="padding-bottom: 64px;">
+    <div class="container">
+      <div class="section-head fade-in" style="margin-bottom: 0;">
+        <span class="section-label">Floor</span>
+        <h2 class="section-title">フロア</h2>
+        <p class="section-lead">
+          コーヒーをいただき、芸術に触れ、自分を整える。<br>
+          ひとつの建物に重なる、3つの時間。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Floor Hero stack — sticky reveal ===== -->
+  <div class="floor-stack">
+    <a href="floor.html#floor-1f" class="floor-hero floor-hero--center"
+       style="background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1920&q=80');">
+      <div class="floor-hero-overlay"></div>
+      <div class="container">
+        <div class="floor-hero-inner">
+          <span class="floor-hero-num">Floor 01 &mdash; 1F</span>
+          <h3 class="floor-hero-name">カフェ</h3>
+          <span class="floor-hero-en">Cafe</span>
+          <span class="floor-hero-link">View More &rarr;</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="floor.html#floor-2f" class="floor-hero floor-hero--center"
+       style="background-image: url('https://images.unsplash.com/photo-1577720580479-7d839d829c73?w=1920&q=80');">
+      <div class="floor-hero-overlay"></div>
+      <div class="container">
+        <div class="floor-hero-inner">
+          <span class="floor-hero-num">Floor 02 &mdash; 2F</span>
+          <h3 class="floor-hero-name">ギャラリー</h3>
+          <span class="floor-hero-en">Gallery</span>
+          <span class="floor-hero-link">View More &rarr;</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="floor.html#floor-3f" class="floor-hero floor-hero--center"
+       style="background-image: url('https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1920&q=80');">
+      <div class="floor-hero-overlay"></div>
+      <div class="container">
+        <div class="floor-hero-inner">
+          <span class="floor-hero-num">Floor 03 &mdash; 3F</span>
+          <h3 class="floor-hero-name">ネイルサロン</h3>
+          <span class="floor-hero-en">Nail Salon</span>
+          <span class="floor-hero-link">View More &rarr;</span>
+        </div>
+      </div>
+    </a>
+  </div>
 
   <!-- ===== About Brief ===== -->
   <section class="section about-brief">
     <div class="container">
       <div class="about-brief-inner fade-in">
-        <div class="about-brief-image">建物の雰囲気写真</div>
+        <div class="about-brief-image"
+             style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80');">
+        </div>
         <div class="about-brief-text">
-          <span class="section-label">About</span>
+          <span class="section-label section-label--left">About</span>
           <h2 class="section-title">まちの角に、<br>あたらしい居場所を</h2>
           <p>
-            ビルヂング角は、阿佐ヶ谷の一角にある小さな複合施設です。1階の喫茶店でコーヒーを飲み、2階のサロンで自分を磨き、3階のスペースで新しいことに挑戦する。
+            ビルヂング角は、阿佐ヶ谷の一角にある小さな複合施設です。1階のカフェでコーヒーを飲み、2階のギャラリーで芸術に触れ、3階のサロンで指先を整える。
           </p>
           <p>
             この場所が、訪れる人にとっての「もうひとつの居場所」になることを願っています。
           </p>
-          <a href="about.html" class="btn btn--outline">コンセプトを読む &rarr;</a>
+          <a href="about.html" class="btn-arrow">About Us &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Access Brief ===== -->
-  <section class="section" id="access">
+  <!-- ===== Access ===== -->
+  <section class="section access" id="access">
     <div class="container">
-      <div class="fade-in" style="text-align: center; margin-bottom: 40px;">
+      <div class="section-head fade-in">
         <span class="section-label">Access</span>
         <h2 class="section-title">アクセス</h2>
       </div>
-      <div class="access-brief-inner fade-in">
-        <div style="border-radius: 20px; overflow: hidden;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.6358!3d35.7053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5p2x5Lqs6YO95p2J5Lim5Yy66Zi_5L2Q6LC35YyX!5e0!3m2!1sja!2sjp!4v1" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="access-inner fade-in">
+        <div class="access-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.6358!3d35.7053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5p2x5Lqs6YO95p2J5Lim5Yy66Zi_5L2Q6LC35YyX!5e0!3m2!1sja!2sjp!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="access-info">
           <dl>
-            <dt>施設名</dt>
-            <dd>ビルヂング角</dd>
-            <dt>所在地</dt>
+            <dt>Name</dt>
+            <dd>ビルヂング角 / Building Kado</dd>
+            <dt>Location</dt>
             <dd>〒166-0001<br>東京都杉並区阿佐谷北</dd>
-            <dt>最寄り駅</dt>
+            <dt>Station</dt>
             <dd>JR中央線・総武線「阿佐ケ谷駅」北口 徒歩5分</dd>
-            <dt>営業時間</dt>
+            <dt>Hours</dt>
             <dd>各テナントにより異なります</dd>
           </dl>
-          <div style="margin-top: 24px;">
-            <a href="company.html" class="btn btn--primary">詳しいアクセス情報 &rarr;</a>
+          <div style="margin-top: 32px;">
+            <a href="company.html" class="btn-arrow">More Information &rarr;</a>
           </div>
         </div>
       </div>
@@ -138,33 +202,38 @@
   <!-- ===== Footer ===== -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <div class="logo-icon">角</div>
-          <div class="logo-text">ビルヂング角</div>
+      <div class="footer-top">
+        <div class="footer-brand-mark">ビルヂング角</div>
+        <div class="footer-brand-en">Building Kado</div>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Address</h4>
           <p>
             〒166-0001<br>
             東京都杉並区阿佐谷北<br>
             JR 阿佐ケ谷駅 北口 徒歩5分
           </p>
         </div>
-        <div class="footer-nav">
-          <h4>ページ</h4>
-          <a href="index.html">ホーム</a>
-          <a href="about.html">コンセプト</a>
-          <a href="floor.html">フロアガイド</a>
-          <a href="company.html">会社情報</a>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="floor.html">Floor Guide</a>
+          <a href="company.html">Company</a>
         </div>
-        <div class="footer-nav">
-          <h4>フロアガイド</h4>
-          <a href="floor.html#floor-1f">1F 喫茶角</a>
-          <a href="floor.html#floor-2f">2F ネイルシェアサロン</a>
-          <a href="floor.html#floor-3f">3F レンタルスペース</a>
+        <div class="footer-col">
+          <h4>Floor</h4>
+          <a href="floor.html#floor-1f">1F &mdash; Cafe</a>
+          <a href="floor.html#floor-2f">2F &mdash; Gallery</a>
+          <a href="floor.html#floor-3f">3F &mdash; Nail Salon</a>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <small>&copy; 2026 ビルヂング角</small>
-        <span class="footer-operator">運営: 株式会社ユクス（UKS, Inc.） &times; 海野商会</span>
+        <small>&copy; 2026 Building Kado. All rights reserved.</small>
+        <span class="footer-operator">Operated by UKS, Inc. &times; Unno Shoukai</span>
       </div>
     </div>
   </footer>

@@ -95,4 +95,39 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  /* --- Hero text parallax (drift up + fade) --- */
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const parallaxItems = Array.from(document.querySelectorAll(".parallax-y"));
+  const heroEl = document.querySelector(".hero");
+
+  if (!reduceMotion && heroEl && parallaxItems.length > 0) {
+    let ticking = false;
+
+    const updateHero = () => {
+      const heroRect = heroEl.getBoundingClientRect();
+      const scrolled = -heroRect.top;
+      if (scrolled >= -window.innerHeight && scrolled <= heroRect.height) {
+        parallaxItems.forEach((el, i) => {
+          const speed = 0.15 + i * 0.04;
+          const y = scrolled * speed;
+          el.style.transform = `translate3d(0, ${-y}px, 0)`;
+          el.style.opacity = String(Math.max(0, 1 - scrolled / (heroRect.height * 0.85)));
+        });
+      }
+      ticking = false;
+    };
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!ticking) {
+          window.requestAnimationFrame(updateHero);
+          ticking = true;
+        }
+      },
+      { passive: true }
+    );
+    updateHero();
+  }
+
 });

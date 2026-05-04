@@ -7,7 +7,7 @@
   <meta name="description" content="ビルヂング角の会社情報・アクセス。運営: 株式会社ユクス（UKS, Inc.）× 海野商会。東京都杉並区阿佐谷北。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+JP:wght@400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,10 +24,10 @@
       </a>
 
       <nav class="nav-desktop">
-        <a href="index.html">ホーム</a>
-        <a href="about.html">コンセプト</a>
-        <a href="floor.html">フロアガイド</a>
-        <a href="company.html" class="active">会社情報</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="floor.html">Floor</a>
+        <a href="company.html" class="active">Company</a>
       </nav>
 
       <button class="hamburger" aria-label="メニュー">
@@ -47,79 +47,75 @@
   </nav>
 
   <!-- ===== Page Header ===== -->
-  <div class="company-header">
+  <div class="page-header">
     <div class="container">
       <span class="section-label">Company</span>
       <h1 class="section-title">会社情報</h1>
-      <p style="color: var(--text-light); font-size: 0.95rem;">
-        運営会社・施設情報・アクセス
-      </p>
+      <p class="page-header-en">Operator &amp; Access</p>
     </div>
   </div>
 
-  <!-- ===== Breadcrumb ===== -->
+  <!-- Breadcrumb -->
   <div class="container">
     <nav class="breadcrumb">
-      <a href="index.html">ホーム</a><span>/</span>会社情報
+      <a href="index.html">Home</a><span>/</span>Company
     </nav>
   </div>
 
-  <!-- ===== Company Info ===== -->
-  <section class="section company-info-section">
+  <!-- ===== Facility Info ===== -->
+  <section class="section">
     <div class="container">
-      <div class="fade-in" style="text-align: center; margin-bottom: 40px;">
+      <div class="section-head fade-in">
         <span class="section-label">Facility</span>
         <h2 class="section-title">施設情報</h2>
       </div>
       <div class="company-table fade-in">
         <div class="company-table-row">
-          <span class="company-table-label">施設名</span>
+          <span class="company-table-label">Name</span>
           <span class="company-table-value">ビルヂング角（Building Kado）</span>
         </div>
         <div class="company-table-row">
-          <span class="company-table-label">所在地</span>
+          <span class="company-table-label">Location</span>
           <span class="company-table-value">〒166-0001<br>東京都杉並区阿佐谷北</span>
         </div>
         <div class="company-table-row">
-          <span class="company-table-label">運営</span>
-          <span class="company-table-value">UKS, Inc.（株式会社ユクス）</span>
+          <span class="company-table-label">Operator</span>
+          <span class="company-table-value">UKS, Inc.（株式会社ユクス）×&nbsp;海野商会</span>
         </div>
         <div class="company-table-row">
-          <span class="company-table-label">構成</span>
+          <span class="company-table-label">Floor</span>
           <span class="company-table-value">
-            1F：喫茶角（カフェ）<br>
-            2F：ネイルシェアサロン<br>
-            3F：レンタルスペース
+            1F &mdash; カフェ（Cafe）<br>
+            2F &mdash; ギャラリー（Gallery）<br>
+            3F &mdash; ネイルサロン（Nail Salon）
           </span>
         </div>
         <div class="company-table-row">
-          <span class="company-table-label">開業</span>
-          <span class="company-table-value">2026年</span>
+          <span class="company-table-label">Established</span>
+          <span class="company-table-value">2026</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Operator Details ===== -->
-  <section class="section about-operators">
+  <!-- ===== Operators ===== -->
+  <section class="section operators">
     <div class="container">
-      <div class="fade-in" style="text-align: center; margin-bottom: 40px;">
+      <div class="section-head fade-in">
         <span class="section-label">Operators</span>
         <h2 class="section-title">運営会社</h2>
       </div>
       <div class="operator-cards fade-in">
-        <!-- UKS -->
         <div class="operator-card">
           <h3>株式会社ユクス</h3>
-          <span class="en-name en-accent">UKS, Inc.</span>
+          <span class="en-name">UKS, Inc.</span>
           <p>
             場所づくりを通じたコミュニティデザインを手掛ける企画・運営会社。ビルヂング角の全体企画、テナントリレーション、イベント企画等を担当。地域と施設をつなぐ役割を担っています。
           </p>
         </div>
-        <!-- Unno -->
         <div class="operator-card">
           <h3>海野商会</h3>
-          <span class="en-name en-accent">Unno Shoukai</span>
+          <span class="en-name">Unno Shoukai</span>
           <p>
             地域密着型の不動産管理・運営を行う商会。ビルヂング角の建物オーナーとして、施設の維持管理やリノベーションプロジェクトの推進を行っています。
           </p>
@@ -129,19 +125,19 @@
   </section>
 
   <!-- ===== Access ===== -->
-  <section class="section company-access">
+  <section class="section access">
     <div class="container">
-      <div class="fade-in" style="text-align: center; margin-bottom: 40px;">
+      <div class="section-head fade-in">
         <span class="section-label">Access</span>
         <h2 class="section-title">アクセス</h2>
       </div>
-      <div class="company-access-inner fade-in">
-        <div style="border-radius: 20px; overflow: hidden;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.6358!3d35.7053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5p2x5Lqs6YO95p2J5Lim5Yy66Zi_5L2Q6LC35YyX!5e0!3m2!1sja!2sjp!4v1" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="access-inner fade-in">
+        <div class="access-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.6358!3d35.7053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5p2x5Lqs6YO95p2J5Lim5Yy66Zi_5L2Q6LC35YyX!5e0!3m2!1sja!2sjp!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="company-access-text">
-          <h3>ビルヂング角へのアクセス</h3>
-          <p>
+        <div class="access-info">
+          <h3 style="font-size: 1.2rem; letter-spacing: 0.08em; margin-bottom: 16px;">ビルヂング角へのアクセス</h3>
+          <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 16px; line-height: 1.95;">
             〒166-0001<br>
             東京都杉並区阿佐谷北
           </p>
@@ -150,9 +146,9 @@
             <li>東京メトロ丸ノ内線「南阿佐ケ谷駅」より徒歩12分</li>
             <li>阿佐谷パールセンター商店街を北へ抜けた先</li>
           </ul>
-          <p style="margin-top: 20px;">
-            <strong>駐車場：</strong>専用駐車場はございません。近隣のコインパーキングをご利用ください。<br>
-            <strong>駐輪場：</strong>建物前に駐輪スペースあり（数台）
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 24px; line-height: 1.95;">
+            <span class="contact-label" style="display:inline; margin-right:8px;">Parking</span>専用駐車場はございません。近隣のコインパーキングをご利用ください。<br>
+            <span class="contact-label" style="display:inline; margin-right:8px;">Bicycle</span>建物前に駐輪スペースあり（数台）
           </p>
         </div>
       </div>
@@ -160,26 +156,28 @@
   </section>
 
   <!-- ===== Contact ===== -->
-  <section class="section company-contact">
+  <section class="section">
     <div class="container">
-      <div class="fade-in">
+      <div class="section-head fade-in">
         <span class="section-label">Contact</span>
-        <h2 class="section-title" style="margin-bottom: 24px;">お問い合わせ</h2>
-        <div class="contact-card">
-          <h3>ビルヂング角 総合窓口</h3>
-          <p>施設に関するお問い合わせ、見学のご予約、レンタルスペースのご予約など、お気軽にご連絡ください。</p>
-          <p style="margin-top: 16px; font-size: 0.85rem;">
-            <strong>電話番号</strong><br>
-            <span style="font-size: 1.1rem; font-weight: 700;">03-XXXX-XXXX</span>
-          </p>
-          <p style="margin-top: 12px; font-size: 0.85rem;">
-            <strong>メール</strong><br>
-            <a href="mailto:info@building-kado.jp" class="contact-email">info@building-kado.jp</a>
-          </p>
-          <p style="margin-top: 12px; font-size: 0.8rem; color: var(--text-light);">
-            受付時間: 平日 10:00 - 17:00
-          </p>
+        <h2 class="section-title">お問い合わせ</h2>
+      </div>
+      <div class="contact-card fade-in">
+        <h3>ビルヂング角 総合窓口</h3>
+        <p>
+          施設に関するお問い合わせ、見学のご予約、<br class="sp-hide">
+          各フロアのご利用に関するお問い合わせは、<br>
+          お気軽にご連絡ください。
+        </p>
+        <div class="contact-row">
+          <span class="contact-label">Telephone</span>
+          <span class="contact-value">03-XXXX-XXXX</span>
         </div>
+        <div class="contact-row">
+          <span class="contact-label">E-mail</span>
+          <span class="contact-value"><a href="mailto:info@building-kado.jp">info@building-kado.jp</a></span>
+        </div>
+        <p class="contact-note">受付時間 &mdash; 平日 10:00 - 17:00</p>
       </div>
     </div>
   </section>
@@ -187,33 +185,38 @@
   <!-- ===== Footer ===== -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <div class="logo-icon">角</div>
-          <div class="logo-text">ビルヂング角</div>
+      <div class="footer-top">
+        <div class="footer-brand-mark">ビルヂング角</div>
+        <div class="footer-brand-en">Building Kado</div>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Address</h4>
           <p>
             〒166-0001<br>
             東京都杉並区阿佐谷北<br>
             JR 阿佐ケ谷駅 北口 徒歩5分
           </p>
         </div>
-        <div class="footer-nav">
-          <h4>ページ</h4>
-          <a href="index.html">ホーム</a>
-          <a href="about.html">コンセプト</a>
-          <a href="floor.html">フロアガイド</a>
-          <a href="company.html">会社情報</a>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="floor.html">Floor Guide</a>
+          <a href="company.html">Company</a>
         </div>
-        <div class="footer-nav">
-          <h4>フロアガイド</h4>
-          <a href="floor.html#floor-1f">1F 喫茶角</a>
-          <a href="floor.html#floor-2f">2F ネイルシェアサロン</a>
-          <a href="floor.html#floor-3f">3F レンタルスペース</a>
+        <div class="footer-col">
+          <h4>Floor</h4>
+          <a href="floor.html#floor-1f">1F &mdash; Cafe</a>
+          <a href="floor.html#floor-2f">2F &mdash; Gallery</a>
+          <a href="floor.html#floor-3f">3F &mdash; Nail Salon</a>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <small>&copy; 2026 ビルヂング角</small>
-        <span class="footer-operator">運営: 株式会社ユクス（UKS, Inc.） &times; 海野商会</span>
+        <small>&copy; 2026 Building Kado. All rights reserved.</small>
+        <span class="footer-operator">Operated by UKS, Inc. &times; Unno Shoukai</span>
       </div>
     </div>
   </footer>
