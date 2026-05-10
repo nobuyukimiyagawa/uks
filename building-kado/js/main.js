@@ -40,6 +40,20 @@ document.addEventListener("DOMContentLoaded", () => {
     onScroll();
   }
 
+  /* --- Hide header until hero is scrolled past (index page only) --- */
+  const heroSection = document.querySelector(".hero");
+  if (heroSection && header && "IntersectionObserver" in window) {
+    header.classList.add("is-hero-hidden");
+    const heroObserver = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        header.classList.add("is-hero-hidden");
+      } else {
+        header.classList.remove("is-hero-hidden");
+      }
+    }, { threshold: 0, rootMargin: "-72px 0px 0px 0px" });
+    heroObserver.observe(heroSection);
+  }
+
   /* --- Scroll Fade-In (IntersectionObserver) --- */
   const fadeElements = document.querySelectorAll(".fade-in");
 
