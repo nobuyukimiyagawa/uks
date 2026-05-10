@@ -2000,8 +2000,8 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 720px) {
   .hero-logo {
     position: absolute;
-    top: 72px;
-    right: 36px;
+    top: -238px;
+    right: -18px;
     height: clamp(110px, 18vh, 160px);
     margin: 0;
     z-index: 2;
