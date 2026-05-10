@@ -868,17 +868,6 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-.floor-name-en {
-  font-family: "DM Serif Display", serif;
-  font-style: italic;
-  font-size: 0.95rem;
-  letter-spacing: 0.24em;
-  color: var(--text-faint);
-  text-transform: uppercase;
-  margin-bottom: 32px;
-  display: block;
-}
-
 .floor-concept {
   font-size: 0.94rem;
   color: var(--text-muted);
@@ -1360,15 +1349,6 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 0.16em;
   color: var(--white);
   margin-bottom: 8px;
-}
-
-.footer-brand-en {
-  font-family: "DM Serif Display", serif;
-  font-style: italic;
-  font-size: 0.78rem;
-  letter-spacing: 0.32em;
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
 }
 
 .footer-grid {
@@ -1856,12 +1836,6 @@ h1, h2, h3, h4, h5 {
 
   .floor-section-content h2 {
     font-size: 1.7rem;
-  }
-
-  .floor-name-en {
-    font-size: 0.85rem;
-    letter-spacing: 0.22em;
-    margin-bottom: 24px;
   }
 
   /* Company table */
