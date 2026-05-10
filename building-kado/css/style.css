@@ -2056,6 +2056,68 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+/* === 1F Cafe collage (irregular 3-photo layout) === */
+.cafe-collage {
+  position: relative;
+  width: 100%;
+  /* Container height holds the asymmetric stack */
+  aspect-ratio: 4 / 5;
+  min-height: 520px;
+}
+
+.cafe-collage-img {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 24px 60px -28px rgba(0, 0, 0, 0.45),
+              0 8px 18px -10px rgba(0, 0, 0, 0.18);
+}
+
+/* A — large photo, top, slightly off the left edge */
+.cafe-collage-img--a {
+  top: 0;
+  left: 4%;
+  width: 64%;
+  aspect-ratio: 4 / 5;
+  z-index: 1;
+}
+
+/* B — medium photo, lower-right, overlaps A */
+.cafe-collage-img--b {
+  top: 36%;
+  right: 0;
+  width: 50%;
+  aspect-ratio: 4 / 5;
+  z-index: 3;
+}
+
+/* C — wide photo, bottom-left, slight tilt-feel via offset */
+.cafe-collage-img--c {
+  bottom: 0;
+  left: 0;
+  width: 58%;
+  aspect-ratio: 4 / 3;
+  z-index: 2;
+}
+
+@media (max-width: 720px) {
+  .cafe-collage {
+    aspect-ratio: 4 / 4.4;
+    min-height: 420px;
+  }
+  .cafe-collage-img--a {
+    left: 0;
+    width: 70%;
+  }
+  .cafe-collage-img--b {
+    top: 32%;
+    width: 54%;
+  }
+  .cafe-collage-img--c {
+    width: 62%;
+  }
+}
+
 /* === Floor menu image (Kissa Kado menu sheet) === */
 .floor-menu-image-link {
   display: block;
