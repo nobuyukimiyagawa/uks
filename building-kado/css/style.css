@@ -2056,6 +2056,45 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+/* === Floor SNS links === */
+.floor-sns {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.floor-sns-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border: 1px solid var(--line, rgba(0, 0, 0, 0.14));
+  border-radius: 999px;
+  color: var(--text);
+  text-decoration: none;
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  font-size: 0.86rem;
+  letter-spacing: 0.04em;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+.floor-sns-link:hover {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+.floor-sns-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.floor-sns-handle {
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+}
+
 /* === 1F Cafe collage (irregular 3-photo layout) === */
 .cafe-collage {
   position: relative;
