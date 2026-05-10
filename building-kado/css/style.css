@@ -2030,7 +2030,11 @@ h1, h2, h3, h4, h5 {
   margin-top: 8px;
 }
 @media (max-width: 720px) {
-  .floor-logo--kissa { width: 160px; }
+  .floor-logo--kissa {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .floor-logo--gallery { width: 200px; }
   .floor-logo--nail { width: 260px; }
 }
