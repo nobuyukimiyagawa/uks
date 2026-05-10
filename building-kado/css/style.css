@@ -2095,12 +2095,12 @@ h1, h2, h3, h4, h5 {
   z-index: 1;
 }
 
-/* B — medium photo, lower-right, overlaps A */
+/* B — landscape photo, lower-right, overlaps A */
 .cafe-collage-img--b {
-  top: 36%;
+  top: 42%;
   right: 0;
-  width: 50%;
-  aspect-ratio: 4 / 5;
+  width: 54%;
+  aspect-ratio: 4 / 3;
   z-index: 3;
 }
 
@@ -2123,8 +2123,8 @@ h1, h2, h3, h4, h5 {
     width: 70%;
   }
   .cafe-collage-img--b {
-    top: 32%;
-    width: 54%;
+    top: 36%;
+    width: 60%;
   }
   .cafe-collage-img--c {
     width: 62%;
