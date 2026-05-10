@@ -1986,3 +1986,20 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 0.1em;
   }
 }
+
+/* === Floor menu image (Kissa Kado menu sheet) === */
+.floor-menu-image-link {
+  display: block;
+  border: 1px solid var(--line, rgba(0, 0, 0, 0.08));
+  background: #fff;
+  padding: 8px;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.floor-menu-image-link:hover {
+  opacity: 0.85;
+}
+.floor-menu-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
