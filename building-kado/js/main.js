@@ -41,14 +41,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* --- Hero image swap by time of day (0-16h day, 16-24h night) --- */
-  const heroEl = document.querySelector(".hero[data-hero-day]");
-  if (heroEl) {
+  const heroBgEl = document.querySelector(".hero[data-hero-day]");
+  if (heroBgEl) {
     const hour = new Date().getHours();
     const isDay = hour >= 0 && hour < 16;
-    const src = isDay ? heroEl.dataset.heroDay : heroEl.dataset.heroNight;
+    const src = isDay ? heroBgEl.dataset.heroDay : heroBgEl.dataset.heroNight;
     if (src) {
-      heroEl.style.backgroundImage = `url('${src}')`;
-      heroEl.classList.add(isDay ? "hero--day" : "hero--night");
+      heroBgEl.style.backgroundImage = `url('${src}')`;
+      heroBgEl.classList.add(isDay ? "hero--day" : "hero--night");
     }
   }
 
