@@ -40,6 +40,18 @@ document.addEventListener("DOMContentLoaded", () => {
     onScroll();
   }
 
+  /* --- Hero image swap by time of day (0-16h day, 16-24h night) --- */
+  const heroEl = document.querySelector(".hero[data-hero-day]");
+  if (heroEl) {
+    const hour = new Date().getHours();
+    const isDay = hour >= 0 && hour < 16;
+    const src = isDay ? heroEl.dataset.heroDay : heroEl.dataset.heroNight;
+    if (src) {
+      heroEl.style.backgroundImage = `url('${src}')`;
+      heroEl.classList.add(isDay ? "hero--day" : "hero--night");
+    }
+  }
+
   /* --- Hide header until hero is scrolled past (index page only) --- */
   const heroSection = document.querySelector(".hero");
   if (heroSection && header && "IntersectionObserver" in window) {
