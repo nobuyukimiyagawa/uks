@@ -2000,9 +2000,9 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 720px) {
   .hero-logo {
     position: absolute;
-    top: 88px;
-    right: 20px;
-    height: clamp(78px, 13vh, 120px);
+    top: 72px;
+    right: 36px;
+    height: clamp(110px, 18vh, 160px);
     margin: 0;
     z-index: 2;
   }
@@ -2049,7 +2049,7 @@ h1, h2, h3, h4, h5 {
 }
 @media (max-width: 720px) {
   .footer-logo-mark {
-    height: 56px;
+    height: 120px;
   }
 }
 
