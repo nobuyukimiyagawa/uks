@@ -1987,6 +1987,75 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+/* === Logos === */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Hero — vertical building-kado mark on cream-washed photo (kept as dark ink) */
+.hero-logo {
+  display: block;
+  margin: 0 auto 28px;
+  height: clamp(160px, 26vh, 260px);
+  width: auto;
+  opacity: 0.92;
+}
+@media (max-width: 720px) {
+  .hero-logo {
+    height: clamp(120px, 20vh, 180px);
+    margin-bottom: 20px;
+  }
+}
+
+/* Floor section logos (light background, full color) */
+.floor-logo {
+  display: block;
+  height: auto;
+  margin: 4px 0 18px;
+  max-width: 100%;
+}
+.floor-logo--kissa {
+  width: 200px;
+  max-width: 56%;
+}
+.floor-logo--gallery {
+  width: 240px;
+  max-width: 64%;
+}
+.floor-logo--nail {
+  width: 320px;
+  max-width: 80%;
+  margin-top: 8px;
+}
+@media (max-width: 720px) {
+  .floor-logo--kissa { width: 160px; }
+  .floor-logo--gallery { width: 200px; }
+  .floor-logo--nail { width: 260px; }
+}
+
+/* Footer — small building-kado mark */
+.footer-logo-mark {
+  display: block;
+  margin: 0 auto 12px;
+  height: 72px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+}
+@media (max-width: 720px) {
+  .footer-logo-mark {
+    height: 56px;
+  }
+}
+
 /* === Floor menu image (Kissa Kado menu sheet) === */
 .floor-menu-image-link {
   display: block;
