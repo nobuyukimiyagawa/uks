@@ -2104,12 +2104,12 @@ h1, h2, h3, h4, h5 {
   z-index: 3;
 }
 
-/* C — wide photo, bottom-left, slight tilt-feel via offset */
+/* C — portrait photo, bottom-left, slight tilt-feel via offset */
 .cafe-collage-img--c {
   bottom: 0;
   left: 0;
-  width: 58%;
-  aspect-ratio: 4 / 3;
+  width: 48%;
+  aspect-ratio: 4 / 5;
   z-index: 2;
 }
 
@@ -2127,7 +2127,7 @@ h1, h2, h3, h4, h5 {
     width: 60%;
   }
   .cafe-collage-img--c {
-    width: 62%;
+    width: 52%;
   }
 }
 
